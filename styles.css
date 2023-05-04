@@ -1,0 +1,15 @@
+body {
+	margin-left:40%;
+	background-color: #0f052d;
+	color: #36868f;
+	font-family: Poppins;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+#peito, #dorsal, #perna, #ombro {
+	display: none;
+}
+
