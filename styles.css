@@ -1,13 +1,32 @@
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	body {
+	  background-color: rgb(128, 0, 53);
+	}
+}
+
 body {
-	margin-left:40%;
 	background-color: #0f052d;
+	margin-left:40%;
 	color: #36868f;
 	font-family: Poppins;
+	font-size: 1em;
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 2em;
 }
+
+button {
+	background-color: #000000;
+	color: #5fc75d;
+	padding: 0.5em;
+	border-radius: 10px;
+	font-family: Poppins;
+	font-size: 1.5em;
+}
+
+
 
 #peito, #dorsal, #perna, #ombro {
 	display: none;
